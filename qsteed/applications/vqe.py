@@ -4,7 +4,7 @@ import time
 import numpy as np
 from quafu import QuantumCircuit
 # from quafu import simulate
-from quafu.algorithms.gradient import grad_adjoint, grad_para_shift, grad_finit_diff
+from quafu.algorithms.gradients.gradient import grad_adjoint, grad_para_shift, grad_finit_diff
 from quafu.algorithms.hamiltonian import Hamiltonian
 from quafu.algorithms.optimizer import adam
 from quafu.simulators.simulator import SVSimulator
